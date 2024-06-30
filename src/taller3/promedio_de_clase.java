@@ -35,5 +35,6 @@ public class promedio_de_clase {
             System.out.println("no ingresaron notas");
             
         }   
+        
     }
 }
