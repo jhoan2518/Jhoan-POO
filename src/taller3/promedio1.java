@@ -28,6 +28,6 @@ public class promedio1 {
         int average = total /10;
         
         System.out.println("%n total de todas las 10 notas es %d%n");
-        System.out.println("clase average is %d%n", average);
+        System.out.println("clase average is %d%n " + average);
     }
 }

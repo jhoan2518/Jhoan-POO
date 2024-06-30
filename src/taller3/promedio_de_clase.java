@@ -28,8 +28,8 @@ public class promedio_de_clase {
         if (NumeroDeNotas != 0){
             double average = (double) total / NumeroDeNotas;
             
-            System.out.println("%n total de las %d notas ingresadas es %d%n", NumeroDeNotas, total);
-            System.out.println("class average is %.2f%n", average);
+            System.out.println(NumeroDeNotas + " total de las " + total + " notas ingresadas es %d%n");
+            System.out.println("class average is %.2f%n" + average);
             
         }else{
             System.out.println("no ingresaron notas");
